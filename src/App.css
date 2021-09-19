@@ -6,3 +6,70 @@ nav a{
   font-size: 25px;
 }
 
+.nav-link{
+  color: black !important;
+}
+
+.nav-link:hover{
+  color: rgb(0, 129, 11) !important;
+}
+
+#slider-button{
+  color: black;
+  font-weight: bolder;
+  border-width: 3px;
+  border-radius: 25px;
+  font-size: 25px;
+}
+
+#slider-button:hover{
+  background-color: rgb(238, 148, 12);
+  border-color: black;
+}
+
+.sImg{
+  float: left;
+  padding-left: 5%;
+  
+}
+
+.newBlock{
+ 
+}
+
+@media (max-width: 800px){
+.carousel-caption h3{
+  font-size: 20px;
+}
+.carousel-caption p{
+  font-size: 14px;
+}
+
+#slider-button{
+  font-size: 20px;
+}
+
+nav a{
+  font-size: 18px;
+}
+
+}
+
+@media (max-width: 493px){
+  .carousel-caption h3{
+    display: none;
+  }
+  #slider-button{
+    font-size: 15px;
+    }
+  }
+
+  @media (max-width: 440px){
+    .carousel-caption p{
+        display: none;
+      }
+      #slider-button{
+        font-size: 12px;
+        border-width: 2px;
+      }
+    }
