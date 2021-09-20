@@ -2,7 +2,9 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import slider1 from './img/slider1.jpg';
 import slider2 from './img/slider2.jpg';
-import stairImg from './img/img.jpg';
+import img1 from './img/1.gif';
+import img2 from './img/2.gif';
+import img3 from './img/3.gif';
 import { Navbar, Nav, Container, Carousel, Button } from 'react-bootstrap';
 
 function NavBar() {
@@ -24,9 +26,6 @@ function NavBar() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      {/* <div>
-        < Slider />
-      </div> */}
     </div>
   );
 }
@@ -71,9 +70,9 @@ function Slider() {
 function StairImg() {
   return (
     <div className="newBlock">
-      <img className="sImg" style={{ paddingLeft: '25%' }} src={stairImg} alt="Second slide" />
-      <img className="sImg" style={{ paddingTop: '30px' }} src={stairImg} alt="Second slide" />
-      <img className="sImg" style={{ paddingTop: '60px' }} src={stairImg} alt="Second slide" />
+      <img className="sImg" style={{ marginLeft: '25%' }} src={img1} alt="Second slide" />
+      <img className="sImg" style={{ marginTop: '30px' }} src={img2} alt="Second slide" />
+      <img className="sImg" style={{ marginTop: '60px' }} src={img3} alt="Second slide" />
     </div>
   );
 }
@@ -82,7 +81,7 @@ function AboutUs() {
   return (
     <div className="newBlock px-4" >
       <h2 style={{ textAlign: 'center' }}>About Us</h2>
-      <p style={{ textAlign: 'justify', fontSize: '19px', marginTop: '10%' }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto mollitia, nemo nobis explicabo vero repudiandae fugiat voluptatibus neque, optio odio quae natus dolorum ut? Iure laudantium ipsa sint iusto minima provident repellat laborum nostrum! Qui, at, placeat sed tempora saepe, sunt earum dignissimos explicabo distinctio reprehenderit praesentium consequatur sit atque explicabo vero repudiandae fugiat voluptatibus neque, optio odio quae natus dolorum ut? Iure laudantium ipsa odio quae natus dolorum.</p>
+      <p className='mx-5' style={{ textAlign: 'justify', fontSize: '19px', marginTop: '10%' }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto mollitia, nemo nobis explicabo vero repudiandae fugiat voluptatibus neque, optio odio quae natus dolorum ut? Iure laudantium ipsa sint iusto minima provident repellat laborum nostrum! Qui, at, placeat sed tempora saepe, sunt earum dignissimos explicabo distinctio reprehenderit praesentium consequatur sit atque explicabo vero repudiandae fugiat voluptatibus neque, optio odio quae natus dolorum ut? Iure laudantium ipsa .</p>
     </div>
   );
 }
